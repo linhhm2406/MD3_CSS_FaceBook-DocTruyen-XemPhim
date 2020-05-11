@@ -1,86 +1,15 @@
-*{
-    font-family: Verdana,sans-serif;
-}
-.container{
-    background-color: #0f1317;
-    width: 100%;
-    height: 1000px;
-}
-.header{
-    background-color: #1d2327;
-    width: 100%;
-    height: 50px;
-    border-bottom: 1px rgba(255,255,255,.2) solid;
-
-}
-.logo{
-    float: left;
-    width: 25%;
-    height: 100%;
-}
-.logo img{
-    float: left;
-    height: 38px;
-    width: 38px;
-    border-radius: 50%;
-    margin: 6px 5px 6px 10px;
-}
-.searchBtn{
-    color: lightgrey;
-    margin: 0 0 0 10px;
-    background-color: transparent;
-    border-color: transparent;
+img{
+    max-width: 500px;
 }
 
-.coverSearchBtn input{
-    width: 160px;
-    color: lightgrey;
-    margin: 5px 0 0 -10px;
-    background-color: transparent;
-    border-color: transparent;
+.content{
+    width: 450px;
+    text-align: justify;
+    border: solid 1px rgba(131,120,211,0.19);
 }
 
-.coverSearchBtn {
-    float: left;
-    background-color: rgba(255,255,255,.2);
-    width: 220px;
-    height: 35px;
-    margin-top: 8px;
-    border-radius: 20px;
-    border-color: rgba(255,255,255,.2) ;
+#container {
+    width: 80%;
+    height: 800px;
+    margin: 20px auto;
 }
-
-
-.homeTask{
-    float: left;
-    width: 50%;
-    height: 100%;
-    text-align: center;
-}
-
-.homeTaskBtn {
-    width: 100px;
-    height: 50px;
-    font-size: x-large;
-    color: rgba(255,255,255,.5);
-    background-color: transparent;
-    border-color: transparent;
-}
-.homeTaskBtn:hover {
-    border-radius: 8px;
-    background-color: dodgerblue;
-}
-
-.homeTaskBtn {
-    background-color: dodgerblue;
-    border-radius: 8px;
-    background-color: rgba(255,255,255,.1);
-}
-
-.nav{
-    float: left;
-    background-color: navajowhite;
-    width: 25%;
-    height: 100%;
-}
-
