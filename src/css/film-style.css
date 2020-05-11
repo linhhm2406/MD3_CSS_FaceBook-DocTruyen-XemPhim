@@ -1,0 +1,116 @@
+@media screen and (min-width: 1001px) {
+    * {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    header {
+        background-color: #487eb0;
+        height: 100px;
+        border: 5px solid gray;
+    }
+
+    nav {
+        background-color: #4cd137;
+        height: 50px;
+        border: 5px solid gray;
+    }
+
+    #main-body {
+        width: 25%;
+        height: 600px;
+        float: left;
+    }
+
+    section {
+        background-color: red;
+        height: 50%;
+        width: 100%;
+        border: 5px solid gray;
+    }
+
+    article {
+        background-color: #fbc531;
+        height: 50%;
+        width: 100%;
+        border: 5px solid gray;
+    }
+
+    aside {
+        background-color: green;
+        height: 600px;
+        width: 75%;
+        float: left;
+        border: 5px solid gray;
+    }
+
+    footer {
+        clear: both;
+        background-color: aqua;
+        height: 50px;
+        border: 5px solid gray;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+    * {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    #container {
+        box-sizing: border-box;
+        line-height: 30px;
+    }
+
+    #header {
+        background-color: #487eb0;
+        width: 100%;
+        height: 50px;
+    }
+
+    #left-side {
+        width: 25%;
+        height: 800px;
+        background-color: #fbc531;
+        float: left;
+        visibility: hidden;
+    }
+
+    #main-side {
+        background-color: #4cd137;
+        width: 75%;
+        height: 800px;
+        float: left;
+    }
+
+    #main-top {
+        background-color: blue;
+        width: 100%;
+        height: 25%;
+    }
+
+    #main-middle {
+        background-color: green;
+        width: 100%;
+        height: 50%;
+    }
+
+    #main-bottom {
+        background-color: red;
+        width: 100%;
+        height: 25%;
+    }
+
+    #footer {
+        clear: both;
+        background-color: #487eb0;
+        width: 100%;
+        height: 50px;
+    }
+}
+
+
